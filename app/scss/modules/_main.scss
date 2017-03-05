@@ -1,0 +1,45 @@
+$main-yellow: #e4cc24;
+$sec-pink: #ab4379;
+
+body{font-family: 'Fontdiner Swanky', cursive;
+  }
+
+main{
+  background: $main-yellow;
+  height: 90vh;
+  width: 100vw;
+  margin: 0 auto;
+  position: relative;
+.main__title{
+  color:$sec-pink;
+  font-size: 1.62rem;
+  position: absolute;
+  top: 25%;
+  left: 59%;
+  }
+  .main__img{
+    max-width:580px;
+    position: absolute;
+    left: 8.3%;
+    top:130px;
+    }
+  .main__dialogue01{
+    position: absolute;
+    left: 43.75%;
+    max-width: 585px;
+    top:145px;
+    }
+  ul{
+    position: absolute;
+    left: 55.5%;
+    list-style: none;
+    font-size: 0.87rem;
+    top: 200px;
+    line-height: 3;
+    }
+  .fa{
+      margin-right: 12px;
+      color: $sec-pink;
+      font-size: 1.19rem;
+    }
+}
